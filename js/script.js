@@ -105,7 +105,7 @@ $('.testi-slider').slick({
     }
   },
   {
-    breakpoint: 576,
+    breakpoint: 575,
     settings: {
       slidesToShow: 1,
       slidesToScroll: 1,
@@ -160,7 +160,7 @@ $('.sponsor-slider').slick({
     }
   },
   {
-    breakpoint: 576,
+    breakpoint: 575,
     settings: {
       slidesToShow: 2,
       slidesToScroll: 1,
