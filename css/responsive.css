@@ -1,0 +1,383 @@
+@media (min-width:320px) and (max-width:575px) {
+
+    /* --------menu-part------- */
+    nav {
+        top: 0;
+        padding: 8px 0 !important;
+    }
+
+    nav .navbar-brand {
+        background: transparent;
+        border: 0;
+        width: auto;
+        height: auto;
+        line-height: 0;
+        position: static;
+    }
+
+
+    nav .navbar-brand img {
+        width: 85%;
+    }
+
+    nav ul {
+        background: black;
+        text-align: center;
+    }
+
+    nav ul li a {
+        margin-left: 0;
+    }
+
+    .fixed .navbar-brand {
+        background: transparent;
+        border: 0;
+        width: auto;
+        height: auto;
+        line-height: 0;
+        position: static;
+
+    }
+
+    /* --------menu-part------- */
+
+    /* --------banner-part------- */
+
+    #banner .banner-slide .overlay {
+        text-align: center;
+        padding-top: 153px;
+        padding-bottom: 100px;
+    }
+
+    #banner .banner-slide .overlay .text {
+        width: auto;
+    }
+
+    #banner .banner-slide .overlay h3 {
+        font-size: 25px;
+    }
+
+    #banner .banner-slide .overlay h1 {
+        font-size: 50px;
+        margin: 11px 0;
+    }
+
+    #banner .banner-slide .overlay p {
+        width: auto;
+        position: static;
+    }
+
+    #banner .banner-slide .overlay a {
+        margin-left: 10px;
+    }
+    #banner .gym .overlay a {
+        margin-left: 5px;
+        text-align: center;
+    }
+
+    #banner .one .overlay a {
+        margin-left: 4px;
+    }
+
+    #banner .two .overlay a {
+        margin-left: 4px;
+    }
+
+    #banner .banner-slide .overlay h3::before {
+        display: none;
+    }
+
+    #banner .banner-slide .overlay h3::after {
+        display: none;
+    }
+
+    #banner .banner-slide .overlay h1::before {
+        display: none;
+    }
+
+    #banner .banner-slide .overlay h1::after {
+        display: none;
+    }
+
+    #banner .banner-slide .overlay p::before {
+        display: none;
+    }
+
+    #banner .banner-slide .overlay p::after {
+        display: none;
+    }
+
+    /* --------banner-part------- */
+
+    /* --------about-part------- */
+    #about .title {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    /* --------about-part------- */
+
+    /* --------gallery-part------- */
+    #gallery {
+        margin-top: 0;
+    }
+
+    /* --------gallery-part------- */
+
+    /* --------team-part------- */
+
+    #team .member .img {
+        margin-top: 30px;
+    }
+
+    /* --------team-part------- */
+
+    /* --------counter-part------- */
+    #counter-part .overlay h2 {
+        font-size: 20px;
+    }
+
+    #counter-part .overlay p {
+        font-size: 12px;
+    }
+
+    /* --------counter-part------- */
+    /* --------tab-part------- */
+
+    #class-part .colorful-tab-content ul li{
+        width: 47.9%;
+        padding: 20px 0;
+    }
+    
+    /* --------tab-part------- */
+    /* --------sponsor-part------- */
+    #sponsor-part .prev {
+        left: -8px;
+    }
+
+    #sponsor-part .next {
+        right: -8px;
+    }
+
+    /* --------sponsor-part------- */
+    
+    /* --------btop-part------- */
+    .btop {
+        position: fixed;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        text-align: center;
+        line-height: 25px;
+        z-index: 9999;
+    }
+    /* --------btop-part------- */
+}
+
+
+@media (min-width:576px) and (max-width:767px) {
+
+    /* --------menu-part------- */
+    nav {
+        top: 0;
+        padding: 8px 0 !important;
+    }
+
+    nav .navbar-brand {
+        background: transparent;
+        border: 0;
+        width: auto;
+        height: auto;
+        line-height: 0;
+        position: static;
+    }
+
+
+    nav .navbar-brand img {
+        width: 85%;
+    }
+
+    nav ul {
+        background: black;
+        text-align: center;
+    }
+
+    nav ul li a {
+        margin-left: 0;
+    }
+
+    .fixed .navbar-brand {
+        background: transparent;
+        border: 0;
+        width: auto;
+        height: auto;
+        line-height: 0;
+        position: static;
+
+    }
+
+    /* --------menu-part------- */
+
+    /* --------banner-part------- */
+
+    #banner .banner-slide .overlay {
+        text-align: center;
+        padding-top: 153px;
+        padding-bottom: 100px;
+    }
+
+    #banner .banner-slide .overlay .text {
+        width: auto;
+    }
+
+    #banner .banner-slide .overlay h3 {
+        font-size: 25px;
+    }
+
+    #banner .banner-slide .overlay h1 {
+        font-size: 50px;
+        margin: 11px 0;
+    }
+
+    #banner .banner-slide .overlay p {
+        width: auto;
+        position: static;
+    }
+
+    #banner .banner-slide .overlay a {
+        margin-left: 10px;
+    }
+    #banner .gym .overlay a {
+        margin-left: 5px;
+        text-align: center;
+    }
+
+    #banner .one .overlay a {
+        margin-left: 4px;
+    }
+
+    #banner .two .overlay a {
+        margin-left: 4px;
+    }
+
+    #banner .banner-slide .overlay h3::before {
+        display: none;
+    }
+
+    #banner .banner-slide .overlay h3::after {
+        display: none;
+    }
+
+    #banner .banner-slide .overlay h1::before {
+        display: none;
+    }
+
+    #banner .banner-slide .overlay h1::after {
+        display: none;
+    }
+
+    #banner .banner-slide .overlay p::before {
+        display: none;
+    }
+
+    #banner .banner-slide .overlay p::after {
+        display: none;
+    }
+
+    /* --------banner-part------- */
+
+    /* --------about-part------- */
+    #about .title {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    /* --------about-part------- */
+
+    /* --------gallery-part------- */
+    #gallery {
+        margin-top: 0;
+    }
+
+    /* --------gallery-part------- */
+
+    /* --------team-part------- */
+
+    #team .member .img {
+        margin-top: 30px;
+    }
+
+    /* --------team-part------- */
+    
+    /* --------member-part------- */
+    #membership-part .item h1{
+        font-size: 18px;
+        font-weight: normal;
+    }
+    #membership-part .item .pricebg .overlay p{
+        font-size: 17px;
+    }
+    #membership-part .item .pricebg .overlay p span{
+        font-size: 36px;
+    }
+    #membership-part .item ul{
+        font-size: 11px;
+    }
+    #membership-part .item ul li{
+        margin-bottom: 20px;
+    }
+    
+    /* --------member-part------- */
+
+    /* --------counter-part------- */
+    #counter-part .overlay h2 {
+        font-size: 20px;
+    }
+
+    #counter-part .overlay p {
+        font-size: 12px;
+    }
+
+    /* --------counter-part------- */
+    /* --------tab-part------- */
+
+    #class-part .colorful-tab-content ul li{
+        width: 31.9%;
+        padding: 16px 0;
+    }
+    #class-part .colorful-tab-content{
+        font-size: 14px;
+    }
+    
+    /* --------tab-part------- */
+    /* --------sponsor-part------- */
+    #sponsor-part .prev {
+        left: -8px;
+    }
+
+    #sponsor-part .next {
+        right: -8px;
+    }
+
+    /* --------sponsor-part------- */
+    
+    /* --------btop-part------- */
+    .btop {
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        font-size: 25px;
+        text-align: center;
+        line-height: 34px;
+        z-index: 9999;
+    }
+    /* --------btop-part------- */
+    /* --------footer-part------- */
+    #footer-part .overlay ul li span{
+        width: 58%;
+    }
+
+
+
+    /* --------footer-part------- */
+}
