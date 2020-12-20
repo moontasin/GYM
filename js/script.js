@@ -37,12 +37,13 @@ $('#banner').slick({
   prevArrow: '<i class="fa fa-angle-left prev" aria-hidden="true"></i>',
   nextArrow: '<i class="fa fa-angle-right next" aria-hidden="true"></i>',
   responsive: [{
-      breakpoint: 1024,
+      breakpoint: 991,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 1,
+        slidesToScroll: 1,
         infinite: true,
-        dots: true
+        dots: true,
+        arrows: false,
       }
     },
     {
@@ -89,10 +90,10 @@ $('.testi-slider').slick({
   arrows: false,
 
   responsive: [{
-    breakpoint: 1024,
+    breakpoint: 991,
     settings: {
-      slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToShow: 2,
+      slidesToScroll: 1,
       infinite: true,
       dots: true
     }
@@ -108,8 +109,7 @@ $('.testi-slider').slick({
     breakpoint: 575,
     settings: {
       slidesToShow: 1,
-      slidesToScroll: 1,
-      arrows: false,
+      slidesToScroll: 1
     }
   }
   // You can unslick at a given breakpoint now by adding:
@@ -144,12 +144,11 @@ $('.sponsor-slider').slick({
   prevArrow: '<i class="fa fa-angle-left prev" aria-hidden="true"></i>',
   nextArrow: '<i class="fa fa-angle-right next" aria-hidden="true"></i>',
   responsive: [{
-    breakpoint: 1024,
+    breakpoint: 991,
     settings: {
-      slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToShow: 4,
+      slidesToScroll: 1,
       infinite: true,
-      dots: true
     }
   },
   {
@@ -164,6 +163,7 @@ $('.sponsor-slider').slick({
     settings: {
       slidesToShow: 2,
       slidesToScroll: 1,
+      arrows: false,
     }
   }
   // You can unslick at a given breakpoint now by adding:

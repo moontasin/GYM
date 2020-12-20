@@ -381,3 +381,112 @@
 
     /* --------footer-part------- */
 }
+
+
+@media (min-width:768px) and (max-width:991px) {
+
+    /* --------menu-part------- */
+    nav {
+        top: 0;
+        padding: 8px 0 !important;
+    }
+
+    nav .navbar-brand {
+        background: transparent;
+        border: 0;
+        width: auto;
+        height: auto;
+        line-height: 0;
+        position: static;
+    }
+
+
+    nav .navbar-brand img {
+        width: 85%;
+    }
+
+    nav ul {
+        background: black;
+        text-align: center;
+    }
+
+    nav ul li a {
+        margin-left: 0;
+    }
+
+    .fixed .navbar-brand {
+        background: transparent;
+        border: 0;
+        width: auto;
+        height: auto;
+        line-height: 0;
+        position: static;
+
+    }
+
+    /* --------menu-part------- */
+    
+    /* --------about-part------- */
+    #about .title {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    /* --------about-part------- */
+
+    /* --------gallery-part------- */
+    #gallery {
+        margin-top: 0;
+    }
+
+    /* --------gallery-part------- */
+
+    /* --------team-part------- */
+
+    #team .member .img {
+        margin-top: 30px;
+    }
+
+    /* --------team-part------- */
+
+    /* --------counter-part------- */
+    #counter-part .overlay h2 {
+        font-size: 20px;
+    }
+
+    #counter-part .overlay p {
+        font-size: 12px;
+    }
+
+    /* --------counter-part------- */
+    /* --------tab-part------- */
+
+    #class-part .colorful-tab-content ul li{
+        width: 18.9%;
+        padding: 20px 0;
+    }
+    
+    /* --------tab-part------- */
+    /* --------sponsor-part------- */
+    #sponsor-part .prev {
+        left: -8px;
+    }
+
+    #sponsor-part .next {
+        right: -8px;
+    }
+
+    /* --------sponsor-part------- */
+    
+    /* --------btop-part------- */
+    .btop {
+        position: fixed;
+        width: 45px;
+        height: 45px;
+        font-size: 30px;
+        text-align: center;
+        line-height: 38px;
+        z-index: 9999;
+    }
+    /* --------btop-part------- */
+}
