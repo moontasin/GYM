@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
 }
-::selection{
+
+::selection {
     background: #e23e38;
     color: #fff;
 }
@@ -11,7 +12,9 @@ ul,
 ol {
     list-style: none;
 }
-html,body{
+
+html,
+body {
     scroll-behavior: smooth;
 }
 
@@ -71,7 +74,7 @@ nav .navbar-brand img {
     transform: skewX(30deg);
 }
 
-nav button i{
+nav button i {
     color: #fff;
 }
 
@@ -106,6 +109,7 @@ nav ul li a:hover {
 nav ul li a:hover:after {
     width: 100%;
 }
+
 nav ul li .active {
     background: #fff;
     color: #222222;
@@ -115,14 +119,57 @@ nav ul li .active:after {
     width: 100%;
 }
 
-.fixed{
+nav ul li {
+    position: relative;
+}
+
+nav ul li ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #353535;
+    border: 1px solid #fff;
+    width: 135px;
+    padding-bottom: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0);
+    transition: .6s;
+}
+
+nav ul li ul li ul {
+    position: absolute;
+    top: 0;
+    left: 104%;
+    background: #353535;
+    width: 135px;
+    padding-bottom: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0);
+    transition: .6s;
+}
+
+nav ul li ul li {
+    margin-top: 20px;
+}
+
+nav ul li:hover>ul {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+
+}
+
+.fixed {
     position: fixed !important;
     top: 0;
     left: 0;
     background: rgba(53, 53, 53, 0.70);
+    transition: .9s;
 }
 
-.fixed .navbar-brand{
+.fixed .navbar-brand {
     padding: 0;
     background: #313131;
     width: 200px;
@@ -132,6 +179,16 @@ nav ul li .active:after {
     position: static;
     transform: skewX(-30deg);
 
+}
+
+@keyframes fixed {
+    from {
+       top: -80px;
+    }
+
+    to {
+        top: 0;
+    }
 }
 
 /* ======================navber-part================== */
@@ -942,7 +999,7 @@ nav ul li .active:after {
 
 /* ======================footer-part================== */
 
-.btop{
+.btop {
     position: fixed;
     bottom: 70px;
     right: 20px;
@@ -955,15 +1012,18 @@ nav ul li .active:after {
     border-radius: 5px;
     transition: .4s;
 }
-.btop i{
+
+.btop i {
     color: #e23e38;
 }
-.btop:hover{
+
+.btop:hover {
     background: #e23e38;
     border-color: #e23e38;
-    
+
 }
-.btop:hover i{
+
+.btop:hover i {
     color: #fff;
 }
 
@@ -1089,7 +1149,8 @@ nav ul li .active:after {
     background: #e23e38;
     border-color: #e23e38;
 }
-#footer-bottom{
+
+#footer-bottom {
     background: rgba(0, 0, 0, 0.795);
     color: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -1100,7 +1161,8 @@ nav ul li .active:after {
     padding-bottom: 5px;
     border-top: 1px solid #fff;
 }
-#footer-bottom span{
+
+#footer-bottom span {
     color: #e23e38;
 }
 
