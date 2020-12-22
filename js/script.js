@@ -47,7 +47,7 @@ $('#banner').slick({
       }
     },
     {
-      breakpoint: 767,
+      breakpoint: 768,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -99,14 +99,14 @@ $('.testi-slider').slick({
     }
   },
   {
-    breakpoint: 767,
+    breakpoint: 768,
     settings: {
       slidesToShow: 1,
       slidesToScroll: 1
     }
   },
   {
-    breakpoint: 575,
+    breakpoint: 576,
     settings: {
       slidesToShow: 1,
       slidesToScroll: 1
@@ -152,14 +152,14 @@ $('.sponsor-slider').slick({
     }
   },
   {
-    breakpoint: 767,
+    breakpoint: 768,
     settings: {
       slidesToShow: 3,
       slidesToScroll: 1
     }
   },
   {
-    breakpoint: 575,
+    breakpoint: 576,
     settings: {
       slidesToShow: 2,
       slidesToScroll: 1,
